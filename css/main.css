@@ -40,13 +40,13 @@ section {
 }
 
 .btn-default {
-    color: #faa541;
-    text-decoration-color: white;
+    color: #ffffff;
+    background-color: #faa541;
 }
 
 .btn-primary {
-    color: #364147;
-    text-decoration-color: white;
+    color: #ffffff;
+    background-color: #faa541;
 }
 
 .form-control {
