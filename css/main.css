@@ -121,17 +121,17 @@ section {
 .hero {
     background-position: center center;
     text-transform: uppercase;
-    background-image: url("../img/hero.jpg");
+    background-image: url('../img/hero.jpg');
     background-size: cover;
     height: 400px;
 }
 
-.hero > div > h1 {
+.hero h1 {
     position: relative;
     left: -30px;
 }
 
-.hero > div > h2 {
+.hero h2 {
     color: #faa541;
 }
 
@@ -141,7 +141,7 @@ section {
     line-height: 0.9;
 }
 
-.hero > div > p {
+.hero p {
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
@@ -156,7 +156,7 @@ section {
     padding: 25px 0;
 }
 
-.banner > img {
+.banner img {
     width: 250px;
 }
 
@@ -168,7 +168,7 @@ section {
     text-align: center;
 }
 
-.banner-text > :last-child {
+.banner-text > div:last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -196,7 +196,7 @@ section {
     color: #faa541;
 }
 
-.category-text > h3 {
+.category-text h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 1;
